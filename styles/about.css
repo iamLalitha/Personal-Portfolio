@@ -1,0 +1,60 @@
+.education-flexbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 40px;
+  flex-shrink:0;
+  flex-wrap: nowrap;
+}
+.about-me-title{
+  margin-left: 80px;
+  margin-top: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+.about-content-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #00203FFF;
+  margin-left: 100px;
+  margin-top: 10px;
+  
+}
+.education-content-box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #00203FFF;
+  margin: 10px;
+}
+.education-content-box:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #00203FFF;
+  transition: 0.1s;
+}
+.educational-title{
+  margin-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 80px;
+  color: #00203FFF;
+  margin-top: 10px;
+}
+.title{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  color: #00203FFF;
+}
+.details{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: #00203FFF;
+}
+.professional-skills{
+ margin-left: 80px;
+}

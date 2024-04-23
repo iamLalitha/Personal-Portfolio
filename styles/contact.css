@@ -1,0 +1,65 @@
+.contact-page{
+  margin-top: 100px;
+  margin-left: 80px;
+  
+}
+.contact-page-title {
+  margin-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00203FFF;
+  
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #00203FFF;
+  margin: 0 auto; 
+  align-items: center;
+  column-gap: 40px;
+  margin-top: 30px;
+}
+.contact-info{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  margin-left: 40px;
+}
+
+
+.contact-profile-image {
+  height: 300px;
+  width: 300px;
+}
+
+
+label {
+  margin-bottom: 5px; 
+  color: #00203FFF;
+  font-family: 'Courier New', Courier, monospace;
+  display: block; 
+}
+
+input,
+textarea {
+  width: 100%; 
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #00203FFF;
+  color: #ADEFD1FF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}

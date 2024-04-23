@@ -1,0 +1,44 @@
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  
+}
+@media(min-width:700px) and (max-width:900px){
+  .projects-grid{
+    grid-template-columns:repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr); /* Change to 1 column for smaller screens */
+    margin-left: 0; /* Adjust margin if necessary */
+  }
+}
+.projects-page-title{
+  margin-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00203FFF;
+}
+.projects-page{
+  margin-top: 140px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.live-url-link,
+.github-url-link{
+  background-color:#00203FFF ;
+  color:#ADEFD1FF ;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+ 
+}
+.live-url-link{
+  margin-right: 90px;
+}
+
+

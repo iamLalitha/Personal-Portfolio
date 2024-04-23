@@ -1,0 +1,40 @@
+.skills-page{
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.skills-grid{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 10px;
+ margin-top: 100px;
+}
+
+
+.skill1{
+  text-align: center;
+}
+.logo{
+  height: 80px;
+  width: 80px;
+}
+.logo:hover {
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 1px 1px 1px #00203FFF;
+}
+.skill1 p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #00203FFF;
+}
+.skills-page-title{
+  margin-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  
+  color: #00203FFF;
+}
+

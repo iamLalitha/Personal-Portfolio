@@ -1,0 +1,122 @@
+body{
+  background-image: linear-gradient(to right,rgb(210, 245, 228),#ADEFD1FF);
+  font-family: 'Courier New', Courier, monospace;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.header{
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to right,rgb(210, 245, 228),#00203FFF);
+  color: #ADEFD1FF;
+  z-index: 100;
+}
+.left-section{
+  margin-left: 10px;
+  color: #00203FFF;
+}
+.middle-section{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.right-section{
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin-right: 10PX;
+}
+.right-section div{
+  cursor: pointer;
+}
+.right-section div:hover{
+  text-decoration: underline;
+  transition: 0.1s;
+  text-decoration-color: rgb(210, 245, 228);
+}
+.right-section div a{
+  color: #ADEFD1FF;
+  text-decoration: none;
+}
+
+.content-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #00203FFF;
+  margin-left: 100px;
+  margin-top: 140px;
+  
+}
+
+.objective-grid{
+  margin-left: 16px;
+  font-size: 20px;
+}
+.profile-image{
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 80px;
+}
+.profile-image:hover{
+background-color:transparent;
+border-right:  2px solid #00203FFF;
+
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 20px;
+  align-items: center;
+}
+.resume-button{
+  margin-right: 10px;
+  margin-left: 12px;
+}
+.resume-button, 
+.github-button,
+.linkedin-button {
+padding: 14px;
+background-color: #00203FFF;
+color:#ADEFD1FF ;
+font-family: 'Courier New', Courier, monospace;
+border: none;
+border-radius: 10px;
+font-size: 16px;
+cursor: pointer;
+margin-right: 10px;
+}
+.resume-button:hover,
+.github-button:hover,
+.linkedin-button:hover{
+  box-shadow: 1px 1px 1px rgb(1, 6, 11);
+}
+.text-color{
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+}
